@@ -1,6 +1,6 @@
 # personal-portfolio
 
-github pages: http://tresbela.com/
+github pages: https://tresbela.com/
 
 How to add custom domain to GitHub Pages:
 - A record for @ pointing to 185.199.108.153
