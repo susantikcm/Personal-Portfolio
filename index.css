@@ -8,7 +8,7 @@ body {
 }
 
 #welcome, #contact {
-    min-height: 600px;
+    min-height: 800px;
     justify-content: center;
     align-items: center;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .card {
-    height:460px; 
+    max-height: 500px;
     border-radius:25px;
     border: 1px solid teal;
     margin: 10px 0px;
@@ -35,6 +35,12 @@ body {
 .card-img-top:hover {
     transform: scale(1.05);
     transition: transform 2s ease-out 0.2;
+}
+
+.card-body > div, .card-body > p {
+    margin-top: 5px;
+    max-height: 150px;
+    overflow: auto;
 }
 
 .fa-github {
