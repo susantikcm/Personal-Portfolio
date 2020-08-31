@@ -1,5 +1,9 @@
+:root {
+    --text-color: teal; 
+}
+
 body {
-    color: teal;
+    color: var(--text-color);
     background-color: rgba(0, 128, 128, 0.1);
 }
 
@@ -33,8 +37,34 @@ body {
     transition: transform 2s ease-out 0.2;
 }
 
-.col {
-    border: 1px solid red;
+.fa-github {
+    color: #343a40;
+}
+
+.fa-linkedin {
+    color: #007bb5;
+}
+
+.fa-skype {
+    color: #00aff0;
+}
+
+.fa-google {
+   color: #dd4b39;
+}
+
+.fa-phone {
+    color: #28a745;
+}
+
+#contact > div > a {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+#contact > div > a:hover {
+    transform: rotateY(360deg);
+    transition: transform 6s;
 }
 
 footer {
